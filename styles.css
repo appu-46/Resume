@@ -1,0 +1,19 @@
+/* * {
+  margin: 0px;
+} */
+
+body {
+  display: flex;
+  font-family: "Source Serif Pro", serif;
+  background-color: #212529;
+  color: #f1f3f5;
+  /* width: 1200px; */
+  justify-content: center;
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  justify-content: center;
+  margin: 0px;
+}
