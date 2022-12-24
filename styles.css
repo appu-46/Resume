@@ -16,7 +16,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   width: 1200px;
-  justify-items: center;
+  /* justify-items: center; */
   gap: 25px;
 }
 
@@ -27,6 +27,11 @@ li {
 h1 {
   font-size: 48px;
   text-transform: uppercase;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .main-header {
@@ -44,9 +49,16 @@ h1 {
   display: flex;
   width: 800px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-a:link a:visited {
-  color: aquamarine;
+a:link,
+a:visited {
+  font-weight: 400;
+  text-decoration: none;
+  color: #a9e34b;
+}
+
+a:hover {
+  color: #d8f5a2;
 }
