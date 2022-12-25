@@ -5,7 +5,7 @@
 body {
   display: flex;
   font-family: "Source Serif Pro", serif;
-  background-color: #e9ecef;
+  background-color: #f1f3f5;
   color: #212529;
   /* width: 1200px; */
   stroke: #212529;
@@ -13,6 +13,18 @@ body {
   margin: 0px;
 }
 
+.main-header {
+  background-color: #dee2e6;
+  display: grid;
+  grid-template-columns: 1200px;
+  grid-template-rows: 75px 20px 35px;
+  align-items: center;
+  justify-items: center;
+  column-gap: 100px;
+  row-gap: 10px;
+  border-radius: 24px;
+  /* grid-column: 1/3; */
+}
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -47,18 +59,6 @@ h3 {
   /* text-decoration: none; */
 }
 
-.main-header {
-  background-color: #f1f3f5;
-  display: grid;
-  grid-template-columns: 1200px;
-  grid-template-rows: 75px 20px 35px;
-  align-items: center;
-  justify-items: center;
-  column-gap: 100px;
-  row-gap: 10px;
-  border-radius: 24px;
-  /* grid-column: 1/3; */
-}
 .contact {
   display: flex;
   width: 800px;
@@ -74,11 +74,11 @@ a:link,
 a:visited {
   font-weight: 400;
   text-decoration: none;
-  color: #364fc7;
+  color: #1864ab;
 }
 
 a:hover {
-  color: #748ffc;
+  color: #4dabf7;
 }
 
 .period {
