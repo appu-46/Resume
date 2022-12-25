@@ -5,10 +5,10 @@
 body {
   display: flex;
   font-family: "Source Serif Pro", serif;
-  background-color: #212529;
-  color: #f1f3f5;
+  background-color: #e9ecef;
+  color: #212529;
   /* width: 1200px; */
-
+  stroke: #212529;
   justify-content: center;
   margin: 0px;
 }
@@ -31,7 +31,7 @@ li:last-child {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 38px;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -44,11 +44,11 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 500;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .main-header {
-  background-color: #343a40;
+  background-color: #f1f3f5;
   display: grid;
   grid-template-columns: 1200px;
   grid-template-rows: 75px 20px 35px;
@@ -63,21 +63,22 @@ h3 {
   display: flex;
   width: 800px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  grid-row: 3/4;
 }
-.contact-icons {
+/* .contact-icons {
   color: #a9e34b;
-}
+} */
 
 a:link,
 a:visited {
   font-weight: 400;
   text-decoration: none;
-  color: #a9e34b;
+  color: #364fc7;
 }
 
 a:hover {
-  color: #d8f5a2;
+  color: #748ffc;
 }
 
 .period {
@@ -110,4 +111,9 @@ section {
 }
 .duration {
   font-style: italic;
+}
+
+.header-icons {
+  display: flex;
+  gap: 7px;
 }
