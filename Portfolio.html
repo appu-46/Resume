@@ -2,29 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link href="styles.css" rel="stylesheet"/>
     <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
       rel="stylesheet"
-      type="text/css"
     />
+    <link href="styles.css" rel="stylesheet" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Serif+Pro&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
 
-  
-  
   <body>
     <title>Abhishek's resume</title>
-    
+
     <div class="container">
-    <header class="main-header">
-      <h1>
-        <!-- <a href="Portfolio.html">Abhishek Prajapati </a></h1> -->
-      <!-- <div class = "description-self"> -->
-        Abhishek Prajapati </h1>
+      <header class="main-header">
+        <h1>
+          <!-- <a href="Portfolio.html">Abhishek Prajapati </a></h1> -->
+          <!-- <div class = "description-self"> -->
+          Abhishek Prajapati
+        </h1>
         <p>
           Analytical thinker, Great Problem Solver, Quick Learner, Creative.
           <!-- </div> -->
@@ -34,82 +32,144 @@
         class="profile-pic"
         /> -->
         <!-- <div> -->
-          <h3 class="contact">
-            <div class="email">ap958461@gmail.com</div>
-            <div class="number">7066502909</div>
-            <div class="location">Mumbai</div>
+        <h3 class="contact">
+          <div class="email">
+            <i class="icon ion-md-mail"></i> ap958461@gmail.com
+          </div>
+          <div class="number"><i class="icon ion-md-call"></i>7066502909</div>
+          <div class="location"><i class="icon ion-md-pin"></i>Mumbai</div>
+          <div class="linkedin">
+            <i class="icon ion-logo-linkedin"></i>
             <a href="https://linkedin.com/in/abhishekPrajapati"> LinkedIn </a>
-            
-            <a href="https://github.com/appu-46"> <i class="ph-git-branch"></i> Github </a>
-          </h3>
+          </div>
+          <div class="github">
+            <i class="icon ion-logo-github"></i>
+            <a href="https://github.com/appu-46">Github</a>
+          </div>
+        </h3>
         <!-- </div> -->
       </header>
-      
-      <section class="work experience">
-        <h2>Work Experience</h2>
+      <div class="main-content">
+        <section class="work experience">
+          <h2>Work Experience</h2>
           <ul>
-            <li>CRMNext - Production Support</li>
+            <div class="period">
+              <li>CRMNext - Production Support</li>
+              <p class="duration">October 2021 - Present</p>
+            </div>
             <ul>
               <li>Resolving production issues.</li>
               <li>
-                Analysing issues and accordingly provide solutions or workaround.
+                Analysing issues and accordingly provide solutions or
+                workaround.
               </li>
               <li>Interaction with client on daily basis.</li>
               <li>Worked on CRs (Change requests)</li>
             </ul>
-            <li>Western Railway Internship</li>
+            <div class="period">
+              <li>Western Railway Internship</li>
+              <p class="duration">December 2020</p>
+            </div>
             <ul>
               <li>
                 Learnt how sysetms and sub-systems work in a mumbai local train.
               </li>
               <li>Created a report on HMI module.</li>
             </ul>
-            <li>Freelance Graphic Desiging</li>
+            <div class="period">
+              <li>Freelance Graphic Desiging</li>
+              <p class="duration">2019</p>
+            </div>
             <ul>
               <li>Designed a logo for a automation company</li>
             </ul>
           </ul>
         </section>
-    <section class="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li>Hand gestures for laptop 2.0 (March 21')</li>
-        <ul>
-          <li>Improved version of Hand gestures for laptop.</li>
-          <li>Published International journal.</li>
-        </ul>
-        <li>Hand gestures for laptop (October 19')</li>
-        <ul>
-          <li>Control your laptop with just gestures.</li>
-          <li>Awarded the second prize in Miniproject Competition.</li>
-        </ul>
-        <li>Temperature Controlled System (April 19')</li>
-        <ul>
-          <li>
-            Would stabilize the system temperature by calibrating according to
-            surrounding temperature.
-          </li>
-          <li>Awarded the first prize in Miniproject Competition.</li>
-        </ul>
-      </ul>
-    </section>
-    <section class="programming">
-      <h2>Programming Languages</h2>
-      <p>Python SQL HTML CSS Java C</p>
-    </section>
-    <section class="skills">
-      <h2>Skills</h2>
-      <p>Programming Photoshop Illustrator</p>
-    </section>
-    <section class="education">
-      <h2> Education </h2>
-      <p>
-        K.C. College of Engineering <br>
-        
-        Electronics and Telecommunication 
-      </p>
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <div class="period">
+              <li>Portfolio</li>
+              <p class="duration">December 2022</p>
+            </div>
+            <ul>
+              <li>Made a functional webpage for displaying Portfolio</li>
+            </ul>
+            <div class="period">
+              <li>Hand gestures for laptop 2.0</li>
+              <p class="duration">March 2021</p>
+            </div>
+            <ul>
+              <li>Improved version of Hand gestures for laptop.</li>
+              <li>Published International journal.</li>
+            </ul>
+            <div class="period">
+              <li>Hand gestures for laptop</li>
+              <p class="duration">October 2109</p>
+            </div>
+            <ul>
+              <li>Control your laptop with just gestures.</li>
+              <li>Awarded the second prize in Miniproject Competition.</li>
+            </ul>
+            <div class="period">
+              <li>Temperature Controlled System</li>
+              <p class="duration">April 2019</p>
+            </div>
+            <ul>
+              <li>
+                Would stabilize the system temperature by calibrating according
+                to surrounding temperature.
+              </li>
+              <li>Awarded the first prize in Miniproject Competition.</li>
+            </ul>
+          </ul>
+        </section>
+        <section class="programming">
+          <h2>Programming Languages</h2>
+          <ul>
+            <li>
+              <div class="languages">
+                <p><i class="icon ion-logo-python"></i>Python</p>
+                <p>SQL</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Java</p>
+                <p>C</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <div class="skill">
+                <p>Programming</p>
+                <p>Photoshop</p>
+                <p>Illustrator</p>
+                <p>Digital Designing</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <div class="college">
+                <p>K.C. College of Engineering</p>
+                <p class="duration">2017-2021</p>
+                <p>
+                  Bachelor of Engineering in Electronics and Telecommunication
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <footer>
+        <p>Copyright &#169; 2023 by Abhishek Prajapati</p>
+      </footer>
     </div>
-      
-    </body>
-    </html>
-    
+  </body>
+</html>
